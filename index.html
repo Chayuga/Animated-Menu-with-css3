@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>css 3 animated menu design</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+
+    <h3 onclick="documant.getElementByTagName('nav')[0].className = 'menu menu_active'">Menu</h3>
+    <div class="menu"></div>
+    <p onclick="documant.getElementByTagName('nav')[0].className = 'menu'">X</p>
+    <ol>
+        <li class="menu-item"><a href="">Home</a></li>
+        <li class="menu-item"><a href="">About</a></li>
+        <li class="menu-item">
+            <a href="">Gallery</a>
+            <ol class="sub-menu">
+                <li class="menu-item"><a href="">Services</a></li>
+                <li class="sub-meu"><a href="">Testimonials</a></li>
+                <li class="sub-meu"><a href="">Carrier</a></li>
+            </ol>
+        </li>
+
+        <li class="menu-item">
+            <a href="">Responsive</a>
+            <ol class="sub-menu">
+                <li class="menu-item"><a href="">Display</a></li>
+                <li class="menu-item"><a href="">Support</a></li>
+                <li class="menu-item"><a href="">Location</a></li>
+            </ol>
+        </li>
+        <li class="menu-item"><a href="">Contact</a></li>
+
+    </ol>
+</body>
+
+</html>
